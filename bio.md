@@ -7,4 +7,4 @@
 
 *Photo of Samantha*
 
-![PfP](images/pfp.jpg)
+![PfP](Images/pfp.jpg)
