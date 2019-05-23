@@ -1,19 +1,27 @@
 # Lab 1
 
-
 [Github Account](https://github.com/samspre)
 
 [Lab 1](https://github.com/samspre/Open-Source-Software)
 
 ## Screenshots
 
-![Tree directory](/Images/lab1_tree.PNG)
+Tree Directory
 
-![Regex Practice](Images/lab1_tree.PNG)
+![Tree directory 1](/Labs/Lab 1/lab1_tree1.PNG)
+![Tree directory 2](/Labs/Lab 1/lab1_tree2.PNG)
 
-![Regex Puzzles](Images/lab1_tree.PNG)
+Regex Practice
 
-![Snap/Blockly](Images/lab1_tree.PNG)
+![Regex Practice](/Labs/Lab 1/regex1.PNG)
+
+Regex Puzzles
+
+![Regex Puzzles](/Labs/Lab 1/regex puzzle1.PNG)
+
+Blockly
+
+![Blockly](/Labs/Lab 1/blockly.PNG)
 
 ## Reflection
 
