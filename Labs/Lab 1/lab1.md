@@ -1,4 +1,4 @@
-# Lab 1
+# Lab 1 - Samantha Sprecace
 
 [Github Account](https://github.com/samspre)
 
@@ -20,6 +20,25 @@ Regex Puzzles
 ![Regex Puzzles](/Labs/Lab 1/regex puzzle1.PNG)
 
 Blockly
+
+``` javascript
+while (notDone()) {
+  if (isPathLeft()) {
+    turnLeft();
+  }
+  if (isPathForward()) {
+    moveForward();
+  }
+  if (isPathRight()) {
+    turnRight();
+  }
+  if (isPathForward()) {
+    moveForward();
+  } else {
+    turnRight();
+  }
+}
+```
 
 ![Blockly](/Labs/Lab 1/blockly.PNG)
 
