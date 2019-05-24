@@ -13,7 +13,7 @@ From my experience, you can also use a calm, level voice and don't take bias reg
 In addition, you can give them sources or more information on how you got to your answer so they can either learn more or look back on it if necessary.
 
 
-## Screenshots
+## Exercises
 
 Tree Directory
 
@@ -32,7 +32,7 @@ Regex Practice
 
 Regex Puzzles
 
-![Regex Puzzle 1](/Labs/Lab 1/regex puzzle1.PNG)
+![Regex Puzzle 2](/Labs/Lab 1/regex puzzle1a.PNG)
 ![Regex Puzzle 2](/Labs/Lab 1/regex puzzle2.PNG)
 ![Regex Puzzle 3](/Labs/Lab 1/regex puzzle3.PNG)
 ![Regex Puzzle 4](/Labs/Lab 1/regex puzzle4.PNG)
