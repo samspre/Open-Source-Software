@@ -13,7 +13,13 @@ Tree Directory
 
 Regex Practice
 
-![Regex Practice](/Labs/Lab 1/regex1.PNG)
+![Regex Practice 1](/Labs/Lab 1/regex1.PNG)
+![Regex Practice 2](/Labs/Lab 1/regex2.PNG)
+![Regex Practice 3](/Labs/Lab 1/regex3.PNG)
+![Regex Practice 4](/Labs/Lab 1/regex4.PNG)
+![Regex Practice 5](/Labs/Lab 1/regex5.PNG)
+![Regex Practice 6](/Labs/Lab 1/regex6.PNG)
+![Regex Practice 7](/Labs/Lab 1/regex7.PNG)
 
 Regex Puzzles
 
