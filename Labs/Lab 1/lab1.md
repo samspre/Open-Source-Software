@@ -14,7 +14,8 @@ In addition, you can give them sources or more information on how you got to you
 
 ### Free Culture: Catalogs
 
-After reading this chapter,
+Upon seeing the title of this chapter, I didn't know what to expect.  What could simple catalogging have to do with piracy?  Turns out, simply building upon a current search engine, and therefore by extension collecting anything that was stored by the previous one, can be considered piracy.  Jesse Jordan learned this the hard way when the RIAA filed a lawsuit against him for "operat\[ing\] a network and had therefore 'willfully' violated copyright laws" (Lessig, 50).  Obviously, Jordan had done nothing of the sort; he had expanded a current engine that happened to contain pirated music courtesy of *other* students.  As a result, he was given a choice: "$250,000 and a chance at winning,
+or $12,000 and a settlement" (52).  Jordan made the latter choice, and I realized that even though something is considered open source, it can still be claim as someone's own through backends and loopholes.
 
 ## Exercises
 
