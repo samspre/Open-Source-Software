@@ -12,13 +12,15 @@ From my experience, you can also use a calm, level voice and don't take bias reg
 
 In addition, you can give them sources or more information on how you got to your answer so they can either learn more or look back on it if necessary.
 
+### Free Culture: Catalogs
+
+After reading this chapter,
 
 ## Exercises
 
-Tree Directory
+Partial Tree Directory
 
 ![Tree directory 1](/Labs/Lab 1/lab1_tree1.PNG)
-![Tree directory 2](/Labs/Lab 1/lab1_tree2.PNG)
 
 Regex Practice
 
