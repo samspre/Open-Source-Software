@@ -66,10 +66,4 @@ while (notDone()) {
 
 ## Reflection
 
-1. Pick an Open Source Project that might be interesting to evaluate
-
-2. Start thinking/finding a problem/project that interests you
-
-3. Add a paragraph on how you are doing this activity
-
-[Open Source Projects](http://aosabook.org/en/index.html)
+The RCOS project "codeBuddy" looks like something I definitely would be interested to work on.  Considering I'm using Atom for this class as well as others, I would like to be able to help with improvements for it, as well as the fact that searching for the same algorithm multiple times over is very tedious and can be automated.
