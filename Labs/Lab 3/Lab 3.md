@@ -1,6 +1,14 @@
-# LATE Stats
+# Lab 3
+## Part 1
+### Latex Practice
 
-## Manual
+![Latex](latex.png)
+![Hadamard](hadamard.png)
+
+## Part 2
+### LATE Stats
+#### Manual
+
 Num Contributors: 13
 
 Num Lines: 38850
@@ -11,7 +19,9 @@ Last Commit: June 7, 2019
 
 Current Branches: 11
 
-## GitStats
+#### GitStats
+
+##### LATE
 
 ![GitStats](gitstats.png)
 
@@ -25,10 +35,18 @@ Last Commit: June 7, 2019
 
 Current Branches: 17
 
-## Gource Snippet
+##### Gource Snippet
 
 ![Gource](gource.png)
 
-## Latex
+##### Automatic Door Control (ADC)
 
-![Latex](latex.png)
+![ADC](gitstats ADC.png)
+
+##### Open Circuits
+
+![OC](gitstats OC.png)
+
+##### Agency (?)
+
+![A](gitstats Agency.png)
