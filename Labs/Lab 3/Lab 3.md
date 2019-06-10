@@ -47,6 +47,6 @@ Current Branches: 17
 
 ![OC](gitstats OC.png)
 
-##### Agency (?)
+##### Autograding
 
-![A](gitstats Agency.png)
+![AG](gitstats AG.png)
