@@ -1,10 +1,15 @@
-Why it is important to choose a LICENSE?
+##### Why it is important to choose a LICENSE?
 
-Why is it important that you SHOULDN'T use a project that doesn't have an explicit license?
+Licenses protect your intellectual property, as well as market a specific brand or franchise.  Licenses also allow the redistribution of any software, and depending on what kind of software (free, copyright, etc), can impose restrictions on how it can be modified.  In addition, certain licenses can also assure the "legitimacy" of a piece of software, such as the Microsoft Office package you're buying is the legitimate one.
 
-Read the Failure to follow the Open System Model Section of Why the Web beat Gopher.
+##### Why is it important that you SHOULDN'T use a project that doesn't have an explicit license?
 
-Can you justify why such a license is chosen based on the history, goals and philosophy of the project? (Justification for ONE choice is enough, but be specific and make sure you provide references to articles or web resources).
+Based off aforementioned reasons, using a project without an explicit license can harm your computer (if illegitimate) or can get you in trouble for copyright infringement, etc.
+
+##### Do you agree with the Failure to follow the Open System Model claim?
+
+##### Can you justify why such a license is chosen based on the history, goals and philosophy of the project?
+
 
 
 | Website                                      | License Present | License                         |
