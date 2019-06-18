@@ -8,6 +8,10 @@ Based off aforementioned reasons, using a project without an explicit license ca
 
 ##### Do you agree with the Failure to follow the Open System Model claim?
 
+I agree with the claim "'the right thing' design approach, tends to lose to 'worse is better'", and that Gopher failed in following the Open System Model.  Gopher followed the former, putting "too much burden on themselves for providing innovations to the protocol, servers software, etc. They decided that they would decide what the "right thing" was, instead of unleashing these decisions on others."  They also "forked" their project too early into development, causing them to lose a lot of support for itself (the parent platform), which caused the children to "die out" as well.  These companies all soon fell (including Gopher), simply because Gopher failed to follow the Open System Model.  
+
+[UNC.edu] (https://ils.unc.edu/callee/gopherpaper.htm#explain)
+
 ##### Can you justify why such a license is chosen based on the history, goals and philosophy of the project?
 
 Linux uses the GPL v2 license, which allows it to "make the originating source code (and any modifications) available to the recipient" (1). They most likely chose this license because they wanted to run Linux under an open source license that followed the 4 philosophies.  Linux describes itself as "an operating system that is 'by the people, for the people'" (2), so the GPL v2 license is the perfect choice for it.
