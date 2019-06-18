@@ -10,6 +10,12 @@ Based off aforementioned reasons, using a project without an explicit license ca
 
 ##### Can you justify why such a license is chosen based on the history, goals and philosophy of the project?
 
+Linux uses the GPL v2 license, which allows it to "make the originating source code (and any modifications) available to the recipient" (1). They most likely chose this license because they wanted to run Linux under an open source license that followed the 4 philosophies.  Linux describes itself as "an operating system that is 'by the people, for the people'" (2), so the GPL v2 license is the perfect choice for it.
+
+1 [Wikipedia](https://en.wikipedia.org/wiki/Linux#Copyright,_trademark,_and_naming)
+
+2 [Linux](https://www.linux.com/what-is-linux)
+
 
 
 | Website                                      | License Present | License                         |
