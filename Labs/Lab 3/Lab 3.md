@@ -41,12 +41,12 @@ Current Branches: 17
 
 ##### Automatic Door Control (ADC)
 
-![ADC](gitstats ADC.png)
+![ADC](gitstatsADC.PNG)
 
 ##### Open Circuits
 
-![OC](gitstats OC.png)
+![OC](gitstatsOC.PNG)
 
 ##### Autograding
 
-![AG](gitstats AG.png)
+![AG](gitstatsAG.PNG)
