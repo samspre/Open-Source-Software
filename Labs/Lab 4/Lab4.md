@@ -8,9 +8,9 @@ Based off aforementioned reasons, using a project without an explicit license ca
 
 ##### Do you agree with the Failure to follow the Open System Model claim?
 
-I agree with the claim "'the right thing' design approach, tends to lose to 'worse is better'", and that Gopher failed in following the Open System Model.  Gopher followed the former, putting "too much burden on themselves for providing innovations to the protocol, servers software, etc. They decided that they would decide what the "right thing" was, instead of unleashing these decisions on others."  They also "forked" their project too early into development, causing them to lose a lot of support for itself (the parent platform), which caused the children to "die out" as well.  These companies all soon fell (including Gopher), simply because Gopher failed to follow the Open System Model.  
+I agree with the claim "'the right thing' design approach, tends to lose to 'worse is better'", and that Gopher failed in following the Open System Model.  Gopher followed the former, putting "too much burden on themselves for providing innovations to the protocol, servers software, etc. They decided that they would decide what the "right thing" was, instead of unleashing these decisions on others."  They also "forked" their project too early into development, causing them to lose a lot of support for itself (the parent platform), which caused the children to "die out" as well.  These companies all soon fell (including Gopher), simply because Gopher failed to follow the Open System Model.
 
-[UNC.edu] (https://ils.unc.edu/callee/gopherpaper.htm#explain)
+[UNC.edu](https://ils.unc.edu/callee/gopherpaper.htm#explain)
 
 ##### Can you justify why such a license is chosen based on the history, goals and philosophy of the project?
 
