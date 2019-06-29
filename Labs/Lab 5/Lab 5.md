@@ -1,12 +1,19 @@
 # Part 1: Tutorial
 
-    For Steps 1 and 2, include the modified code, tutorial.cxx, the CMakeLists.txt along with a screen shot of running the Tutorial code without input, with 10 and with 4294967296.
-    For Step 3, include CMakeLists.txt and MathFunctions/CMakeLists.txt (most of your changes for Step3 will be in MathFunctions/CMakeLists.txt) along with a screen shot of running the Tutorial code without input, with 10 and with 4294967296
-    For Step 4, include CMakeLists.txt and MathFunctions/CMakeLists.txt along with the output of running ctest -VV.
-    For Step 5, include CMakeLists.txt and MathFunctions/CMakeLists.txt along with a screen shot of running the Tutorial code without input, with 10 and with 4294967296.
+## Steps 1 and 2
+![Step 1](step1.png)
+
+![Step 3](step3.png)
+
+Couldn't get ctest to work for steps 4 and 5
+<!-- ![Step 4](step4.png) -->
+
+<!-- ![Step 5](step5.png) -->
 
 
 # Part 2: Makefile
+
+NOTE: Cmake won't upload to github
 
 https://github.com/rcos/CSCI-49XX-OpenSource/tree/master/Modules/BuildSystems/Lab-Example
 
