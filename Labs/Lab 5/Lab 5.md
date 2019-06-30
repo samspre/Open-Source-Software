@@ -1,14 +1,15 @@
 # Part 1: Tutorial
 
-## Steps 1 and 2
+##### Step 1
 ![Step 1](step1.png)
-
+##### Step 2
 ![Step 3](step3.png)
-
-Couldn't get ctest to work for steps 4 and 5
-<!-- ![Step 4](step4.png) -->
-
-<!-- ![Step 5](step5.png) -->
+##### Step 4
+![Step 4p1](step4Part1.png)
+![Step 4p2](step4Part2.png)
+![Step 4p3](step4Part3.png)
+##### Step 5
+![Step 5](step5.png)
 
 
 # Part 2: Makefile
