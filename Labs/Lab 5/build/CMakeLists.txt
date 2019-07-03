@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.3)
+project(block)
+add_executable(block block.c)
+target_link_libraries(block static_block)
+install(TARGETS block DESTINATION bin)
