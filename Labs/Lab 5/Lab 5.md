@@ -18,7 +18,7 @@
 
 [CMake Makefile](build/Makefile)
 
-[CMakeLists](build/CMakeLists.txt)
+[CMakeLists](CMakeLists.txt)
 
 
 Results
