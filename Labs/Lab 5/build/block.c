@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include "../headers/block.h"
+#include "block.h"
 
 void print_block(const char *s) {
     for (unsigned int line=0; line<strlen(s); line++)

@@ -14,8 +14,19 @@
 
 # Part 2: Custom Makefile
 
-[My Makefile](build/Makefile)
+[My Makefile](build/myMakefile)
+
+[CMake Makefile](build/Makefile)
 
 [CMakeLists](build/CMakeLists.txt)
 
-[CMake Makefile](build/CMakeLists.txt)
+
+Results
+![Results](results.png)
+
+##### Sizes
+Dynamic: 8600
+
+Static: 8784
+
+![sizes](sizes.png)
