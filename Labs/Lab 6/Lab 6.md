@@ -19,7 +19,11 @@
 ![ex 2.4](ex2_4.PNG)
 
 ### Example 3
-![ex 3](ex3.PNG)
+![ex 3.1](ex3_1.PNG)
+
+![ex 3.2](ex3_2.PNG)
+
+![ex 3.3](ex3_3.PNG)
 
 ### Example 4
 ![ex 4](ex4.PNG)
