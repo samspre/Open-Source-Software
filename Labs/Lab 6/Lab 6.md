@@ -23,6 +23,8 @@
 
 ![ex 3.2](ex3_2.PNG)
 
+Note: localhost does not work, need to use IP that Docker initially connects to (in my case, it is 192.168.99.100)
+
 ![ex 3.3](ex3_3.PNG)
 
 ### Example 4
