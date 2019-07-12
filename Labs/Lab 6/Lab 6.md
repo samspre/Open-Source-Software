@@ -18,6 +18,8 @@
 
 ![ex 2.4](ex2_4.PNG)
 
+Connection refusals, cant access anything but port 5000 (see last image)
+
 ### Example 3
 ![ex 3.1](ex3_1.PNG)
 
@@ -27,5 +29,22 @@ Note: localhost does not work, need to use IP that Docker initially connects to 
 
 ![ex 3.3](ex3_3.PNG)
 
+![ex 3.4](ex3_4.PNG)
+
 ### Example 4
-![ex 4](ex4.PNG)
+![ex 4.1](ex4_1.PNG)
+
+![ex 4.2](ex4_2.PNG)
+
+Note: localhost does not work again, need to use host IP
+
+![ex 4.3](ex4_3.PNG)
+
+#### Backend
+![ex 4.4](ex4_4.PNG)
+
+#### Frontend
+
+Connection refusals, cant access anything but port 5000
+
+![ex 4.5](ex4_5.PNG)
