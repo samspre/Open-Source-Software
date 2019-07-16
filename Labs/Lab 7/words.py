@@ -56,13 +56,16 @@ def generate_graph(words):
 
 def words_graph():
     """Return the words example graph from the Stanford GraphBase"""
-    fh = gzip.open('words4_dat.txt.gz', 'r')
+    # Check if using words or words4
+    fh = gzip.open('words_dat.txt.gz', 'r')
     words = set()
     for line in fh.readlines():
         line = line.decode()
         if line.startswith('*'):
             continue
-        w = str(line[0:4])
+        w = str(line[0:5])
+        # Use for words4
+        # w = str(line[0:4])
         words.add(w)
     return generate_graph(words)
 
@@ -75,20 +78,10 @@ if __name__ == '__main__':
           % (nx.number_of_nodes(G), nx.number_of_edges(G)))
     print("%d connected components" % nx.number_connected_components(G))
 
-    # for (source, target) in [('chaos', 'order'),
-    #                          ('nodes', 'graph'),
-    #                          ('moron', 'smart'),
-    #                          ('pound', 'marks')]:
-    #     print("\nShortest path between %s and %s is" % (source, target))
-    #     try:
-    #         sp = nx.shortest_path(G, source, target)
-    #         for n in sp:
-    #             print(n)
-    #     except nx.NetworkXNoPath:
-    #         print("None")
-
-    for (source, target) in [('cold', 'warm'),
-                             ('love', 'hate')]:
+    for (source, target) in [('chaos', 'order'),
+                             ('nodes', 'graph'),
+                             ('moron', 'smart'),
+                             ('pound', 'marks')]:
         print("\nShortest path between %s and %s is" % (source, target))
         try:
             sp = nx.shortest_path(G, source, target)
@@ -96,3 +89,13 @@ if __name__ == '__main__':
                 print(n)
         except nx.NetworkXNoPath:
             print("None")
+
+    # for (source, target) in [('cold', 'warm'),
+    #                          ('love', 'hate')]:
+    #     print("\nShortest path between %s and %s is" % (source, target))
+    #     try:
+    #         sp = nx.shortest_path(G, source, target)
+    #         for n in sp:
+    #             print(n)
+    #     except nx.NetworkXNoPath:
+    #         print("None")
