@@ -40,6 +40,7 @@ import gzip
 from string import ascii_lowercase as lowercase
 
 import networkx as nx
+from itertools import permutations as perm
 
 #-------------------------------------------------------------------
 #   The Words/Ladder graph of Section 1.1
@@ -52,10 +53,12 @@ def generate_graph(words):
 
     def edit_distance_one(word):
         for i in range(len(word)):
-            left, c, right = word[0:i], word[i], word[i + 1:]
-            j = lookup[c]  # lowercase.index(c)
-            for cc in lowercase[j + 1:]:
-                yield left + cc + right
+            # left, c, right = word[0:i], word[i], word[i + 1:]
+            c = word[i]
+            # j = lookup[c]  # lowercase.index(c)
+            # for cc in lowercase[j + 1:]:
+            #     yield c
+            yield perm([c])
 
     candgen = ((word, cand) for word in sorted(words)
                for cand in edit_distance_one(word) if cand in words)
