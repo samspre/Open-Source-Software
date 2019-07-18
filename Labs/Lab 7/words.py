@@ -81,6 +81,8 @@ if __name__ == '__main__':
     for (source, target) in [('chaos', 'order'),
                              ('nodes', 'graph'),
                              ('moron', 'smart'),
+                             ('flies', 'swims'),
+                             ('mango', 'peach'),
                              ('pound', 'marks')]:
         print("\nShortest path between %s and %s is" % (source, target))
         try:
@@ -91,7 +93,10 @@ if __name__ == '__main__':
             print("None")
 
     # for (source, target) in [('cold', 'warm'),
-    #                          ('love', 'hate')]:
+    #                          ('love', 'hate'),
+    #                          ('good', 'evil'),
+    #                          ('pear', 'beef'),
+    #                          ('make', 'take')]:
     #     print("\nShortest path between %s and %s is" % (source, target))
     #     try:
     #         sp = nx.shortest_path(G, source, target)
