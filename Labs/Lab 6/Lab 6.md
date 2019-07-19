@@ -33,6 +33,6 @@ Note: localhost does not work, need to use IP that Docker initially connects to 
 
 ### Example 4
 
-Broken!
+Mongo fail (correct step)
 
-![ex4 Broken](ex4_updated.PNG)
+![ex4.1](ex4_1.PNG)
