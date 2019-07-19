@@ -92,6 +92,7 @@ if __name__ == '__main__':
         except nx.NetworkXNoPath:
             print("None")
 
+    # Use for 4 letters
     # for (source, target) in [('cold', 'warm'),
     #                          ('love', 'hate'),
     #                          ('good', 'evil'),

@@ -56,7 +56,7 @@ def generate_graph(words):
             left, c, right = word[0:i], word[i], word[i + 1:]
             j = lookup[c]  # lowercase.index(c)
             for cc in lowercase[j + 1:]:
-                for ccc in perm(cc):
+                for ccc in perm(left + cc + right):
                     s = ''
                     yield s.join(ccc)
 
