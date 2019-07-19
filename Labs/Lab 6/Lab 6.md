@@ -36,3 +36,17 @@ Note: localhost does not work, need to use IP that Docker initially connects to 
 Mongo fail (correct step)
 
 ![ex4.1](ex4_1.PNG)
+
+Docker Compose
+
+![ex4.2](ex4_2.PNG)
+
+![ex4.3](ex4_3.PNG)
+
+Message Creation
+
+![ex4.4](ex4_4.PNG)
+
+Message Modification and Deletion
+
+![ex4.5](ex4_5.PNG)
