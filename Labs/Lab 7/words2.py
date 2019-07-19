@@ -53,11 +53,12 @@ def generate_graph(words):
 
     def edit_distance_one(word):
         for i in range(len(word)):
-            left, c, right = word[0:i], word[i], word[i:]
-            c = word[i]
+            left, c, right = word[0:i], word[i], word[i + 1:]
             j = lookup[c]  # lowercase.index(c)
-            for cc in lowercase[j:]:
-                yield edit_distance_one(perm([left, cc, right]))
+            for cc in lowercase[j + 1:]:
+                for ccc in perm(cc):
+                    s = ''
+                    yield s.join(ccc)
 
     candgen = ((word, cand) for word in sorted(words)
                for cand in edit_distance_one(word) if cand in words)
@@ -83,7 +84,7 @@ def words_graph():
 if __name__ == '__main__':
     G = words_graph()
     print("Loaded words_dat.txt containing 5757 five-letter English words.")
-    print("Two words are connected if they differ in one letter.")
+    print("Two words are connected (adjacent) if there is a one letter difference without regard to ordering.")
     print("Graph has %d nodes with %d edges"
           % (nx.number_of_nodes(G), nx.number_of_edges(G)))
     print("%d connected components" % nx.number_connected_components(G))

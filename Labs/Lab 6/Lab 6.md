@@ -32,3 +32,7 @@ Note: localhost does not work, need to use IP that Docker initially connects to 
 ![ex 3.4](ex3_4.PNG)
 
 ### Example 4
+
+Broken!
+
+![ex4 Broken](ex4_updated.PNG)

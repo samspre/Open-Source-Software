@@ -19,3 +19,4 @@ EXPOSE 1337
 
 # Launch application
 CMD ["node","app.js"]
+
