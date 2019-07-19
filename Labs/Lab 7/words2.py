@@ -53,12 +53,11 @@ def generate_graph(words):
 
     def edit_distance_one(word):
         for i in range(len(word)):
-            # left, c, right = word[0:i], word[i], word[i + 1:]
+            left, c, right = word[0:i], word[i], word[i + 1:]
             c = word[i]
-            # j = lookup[c]  # lowercase.index(c)
-            # for cc in lowercase[j + 1:]:
-            #     yield c
-            yield perm([c])
+            j = lookup[c]  # lowercase.index(c)
+            for cc in lowercase[j + 1:]:
+                yield edit_distance_one(perm([left, cc, right]))
 
     candgen = ((word, cand) for word in sorted(words)
                for cand in edit_distance_one(word) if cand in words)

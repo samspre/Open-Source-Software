@@ -1,4 +1,4 @@
-# Lab 6: Using Docker
+# Lab 6: Virtualization (Docker)
 
 ### Example 0
 ![ex 0](ex0.PNG)
@@ -32,6 +32,9 @@ Note: localhost does not work, need to use IP that Docker initially connects to 
 ![ex 3.4](ex3_4.PNG)
 
 ### Example 4
+
+
+
 ![ex 4.1](ex4_1.PNG)
 
 ![ex 4.2](ex4_2.PNG)
