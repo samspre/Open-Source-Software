@@ -17,13 +17,14 @@
 
 ![ex1](slopes/ex1.PNG)
 ![ex2](slopes/ex2.PNG)
+##### Got stuck on this one because of wording
 ![ex3](slopes/ex3.PNG)
 ![ex4](slopes/ex4.PNG)
 ![ex5](slopes/ex5.PNG)
 ![ex6](slopes/ex6.PNG)
 ![ex7](slopes/ex7.PNG)
-![ex8](slopes/ex8.PNG)
-![ex9](slopes/ex9.PNG)
 
+Note: Some quiz answers I got intially incorrect
 
+#### RCOS Link
 [Observatory Link](https://rcos.io/projects/samspre/web-systems-development-group-6/profile)
