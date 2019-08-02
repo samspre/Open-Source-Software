@@ -6,6 +6,7 @@
 
 #### TensorFlow Classification for 9000-9014
 
+<!-- Fix ex2 - doesn't print -->
 ![ex1](ex1.PNG)
 ![ex2](ex2.PNG)
 ![ex3](ex3.PNG)

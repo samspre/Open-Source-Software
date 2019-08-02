@@ -35,14 +35,14 @@ train_images = train_images / 255.0
 test_images = test_images / 255.0
 
 plt.figure(figsize=(10,10))
-for i in range(25):
-    plt.subplot(5,5,i+1)
-    plt.xticks([])
-    plt.yticks([])
-    plt.grid(False)
-    plt.imshow(train_images[i], cmap=plt.cm.binary)
-    plt.xlabel(class_names[train_labels[i]])
-plt.show()
+# for i in range(25):
+#     plt.subplot(5,5,i+1)
+#     plt.xticks([])
+#     plt.yticks([])
+#     plt.grid(False)
+#     plt.imshow(train_images[9000+i], cmap=plt.cm.binary)
+#     plt.xlabel(class_names[train_labels[9000+i]])
+# plt.show()
 
 model = keras.Sequential([
     keras.layers.Flatten(input_shape=(28, 28)),
@@ -110,9 +110,9 @@ num_images = num_rows*num_cols
 plt.figure(figsize=(2*2*num_cols, 2*num_rows))
 for i in range(num_images):
   plt.subplot(num_rows, 2*num_cols, 2*i+1)
-  plot_image(i, predictions, test_labels, test_images)
+  plot_image(9000+i, predictions, test_labels, test_images)
   plt.subplot(num_rows, 2*num_cols, 2*i+2)
-  plot_value_array(i, predictions, test_labels)
+  plot_value_array(9000+i, predictions, test_labels)
 plt.show()
 
 # Grab an image from the test dataset
