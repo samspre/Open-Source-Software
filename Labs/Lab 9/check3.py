@@ -35,14 +35,14 @@ train_images = train_images / 255.0
 test_images = test_images / 255.0
 
 plt.figure(figsize=(10,10))
-for i in range(25):
-    plt.subplot(5,5,i+1)
-    plt.xticks([])
-    plt.yticks([])
-    plt.grid(False)
-    plt.imshow(train_images[9000+i], cmap=plt.cm.binary)
-    plt.xlabel(class_names[train_labels[9000+i]])
-plt.show()
+# for i in range(25):
+#     plt.subplot(5,5,i+1)
+#     plt.xticks([])
+#     plt.yticks([])
+#     plt.grid(False)
+#     plt.imshow(train_images[9000+i], cmap=plt.cm.binary)
+#     plt.xlabel(class_names[train_labels[9000+i]])
+# plt.show()
 
 model = keras.Sequential([
     keras.layers.Flatten(input_shape=(28, 28)),
