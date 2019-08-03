@@ -35,7 +35,7 @@ train_images = train_images / 255.0
 test_images = test_images / 255.0
 
 plt.figure(figsize=(10,10))
-for i in range(25):
+for i in range(15):
     plt.subplot(5,5,i+1)
     plt.xticks([])
     plt.yticks([])
