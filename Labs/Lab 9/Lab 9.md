@@ -1,7 +1,7 @@
 # Lab 9 - TensorFlow
 
 #### Check 1: Graph
-![Graph](graph.PNG)
+![Graph](images/graph.PNG)
 
 #### Check 2: TensorFlow Classification for 9000-9014
 
