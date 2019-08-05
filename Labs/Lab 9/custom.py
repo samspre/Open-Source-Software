@@ -39,25 +39,26 @@ im1 = Image.open("images/shirt1.jpg")
 im2 = Image.open("images/shirt2.jpg")
 im3 = Image.open("images/shoes.jpg")
 
-images = [im1, im2, im3]
-Image.invert(im1)
-# ImageOps.save(im1 + "Processed", "JPEG")
+im1.thumbnail(size)
+im2.thumbnail(size)
+im3.thumbnail(size)
 
-# for infile in glob.glob("*.jpg"):
-#     file, ext = os.path.splitext(infile)
-#     im = Image.open(infile)
-#     im.thumbnail(size)
+shirt1Processed = ImageOps.grayscale(im1)
+shirt1Processed = ImageOps.invert(shirt1Processed)
 
+shirt2Processed = ImageOps.grayscale(im2)
+shirt2Processed = ImageOps.invert(shirt2Processed)
 
-plt.figure(figsize=(10,10))
-for i in range(len(imagesProcess)):
-    plt.subplot(5,5,i+1)
-    plt.xticks([])
-    plt.yticks([])
-    plt.grid(False)
-    plt.imshow(imagesProcess[i], cmap=plt.cm.binary)
-    # plt.xlabel(class_names[images[i]])
-plt.show()
+shoesProcessed = ImageOps.grayscale(im3)
+shoesProcessed = ImageOps.invert(shoesProcessed)
+
+images = []
+images.append(shirt1Processed)
+images.append(shirt2Processed)
+images.append(shoesProcessed)
+
+# for img in images:
+#     plt.imshow(img, cmap=plt.cm.binary)
 
 model = keras.Sequential([
     keras.layers.Flatten(input_shape=(28, 28)),
@@ -78,7 +79,7 @@ predictions = model.predict(test_images)
 np.argmax(predictions[0])
 
 def plot_image(i, predictions_array, true_label, img):
-  predictions_array, true_label, img = predictions_array[i], true_label[i], img[i]
+  predictions_array, true_label, img = predictions_array[i], true_label[i], images[i]
   plt.grid(False)
   plt.xticks([])
   plt.yticks([])
@@ -108,13 +109,13 @@ def plot_value_array(i, predictions_array, true_label):
   thisplot[predicted_label].set_color('red')
   thisplot[true_label].set_color('blue')
 
-i = 12
-plt.figure(figsize=(6,3))
-plt.subplot(1,2,1)
-plot_image(i, predictions, test_labels, test_images)
-plt.subplot(1,2,2)
-plot_value_array(i, predictions,  test_labels)
-plt.show()
+for i in range(0, len(images)):
+    plt.figure(figsize=(6,3))
+    plt.subplot(1,2,1)
+    plot_image(i, predictions, test_labels, images)
+    plt.subplot(1,2,2)
+    plot_value_array(i, predictions, test_labels)
+    plt.show()
 
 
 # Plot the first X test images, their predicted label, and the true label
@@ -130,8 +131,8 @@ for i in range(num_images):
   plot_value_array(9000+i, predictions, test_labels)
 plt.show()
 
-# Grab an image from the test dataset
-img = imagesProcess[0]
+# # Grab an image from the test dataset
+img = images[0]
 print(img.shape)
 
 # Add the image to a batch where it's the only member.
