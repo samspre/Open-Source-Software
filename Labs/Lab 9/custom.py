@@ -9,10 +9,9 @@ from PIL import ImageOps
 # Helper libraries
 import numpy as np
 import matplotlib.pyplot as plt
+import glob, os
 
 print(tf.__version__)
-plt.plot((-2,4),(-6,6))
-plt.show()
 
 fashion_mnist = keras.datasets.fashion_mnist
 (train_images, train_labels), (test_images, test_labels) = fashion_mnist.load_data()
@@ -25,23 +24,39 @@ train_labels
 test_images.shape
 len(test_labels)
 
-plt.figure()
-plt.imshow(train_images[0])
-plt.colorbar()
-plt.grid(False)
-plt.show()
+# plt.figure()
+# plt.imshow(train_images[0])
+# plt.colorbar()
+# plt.grid(False)
+# plt.show()
 
-train_images = train_images / 255.0
-test_images = test_images / 255.0
+# train_images = train_images / 255.0
+# test_images = test_images / 255.0
+
+size = 28, 28
+
+im1 = Image.open("images/shirt1.jpg")
+im2 = Image.open("images/shirt2.jpg")
+im3 = Image.open("images/shoes.jpg")
+
+images = [im1, im2, im3]
+Image.invert(im1)
+# ImageOps.save(im1 + "Processed", "JPEG")
+
+# for infile in glob.glob("*.jpg"):
+#     file, ext = os.path.splitext(infile)
+#     im = Image.open(infile)
+#     im.thumbnail(size)
+
 
 plt.figure(figsize=(10,10))
-for i in range(3):
+for i in range(len(imagesProcess)):
     plt.subplot(5,5,i+1)
     plt.xticks([])
     plt.yticks([])
     plt.grid(False)
-    plt.imshow(train_images[9000+i], cmap=plt.cm.binary)
-    plt.xlabel(class_names[train_labels[9000+i]])
+    plt.imshow(imagesProcess[i], cmap=plt.cm.binary)
+    # plt.xlabel(class_names[images[i]])
 plt.show()
 
 model = keras.Sequential([
@@ -54,10 +69,10 @@ model.compile(optimizer='adam',
               loss='sparse_categorical_crossentropy',
               metrics=['accuracy'])
 
-model.fit(train_images, train_labels, epochs=5)
+# model.fit(train_images, train_labels, epochs=5)
 
-test_loss, test_acc = model.evaluate(test_images, test_labels)
-print('Test accuracy:', test_acc)
+# test_loss, test_acc = model.evaluate(test_images, test_labels)
+# print('Test accuracy:', test_acc)
 
 predictions = model.predict(test_images)
 np.argmax(predictions[0])
@@ -104,7 +119,7 @@ plt.show()
 
 # Plot the first X test images, their predicted label, and the true label
 # Color correct predictions in blue, incorrect predictions in red
-num_rows = 5
+num_rows = 1
 num_cols = 3
 num_images = num_rows*num_cols
 plt.figure(figsize=(2*2*num_cols, 2*num_rows))
@@ -116,7 +131,7 @@ for i in range(num_images):
 plt.show()
 
 # Grab an image from the test dataset
-img = test_images[0]
+img = imagesProcess[0]
 print(img.shape)
 
 # Add the image to a batch where it's the only member.
