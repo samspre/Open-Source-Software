@@ -2,6 +2,22 @@
 ### Using Python 2.7
 
 #### 5-letter Pairs
+``` python
+for (source, target) in [('chaos', 'order'),
+                         ('nodes', 'graph'),
+                         ('moron', 'smart'),
+                         ('flies', 'swims'),
+                         ('mango', 'peach'),
+                         ('pound', 'marks')]:
+    print("\nShortest path between %s and %s is" % (source, target))
+    try:
+        sp = nx.shortest_path(G, source, target)
+        for n in sp:
+            print(n)
+    except nx.NetworkXNoPath:
+        print("None")
+```
+
 
 ![ex1.1](ex1.PNG)
 
