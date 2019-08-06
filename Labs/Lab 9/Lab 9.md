@@ -30,8 +30,14 @@ Test Results
 
 ##### Processed Images
 
+Shirt 1
 ![shirt1 Processed](images/shirt1Processed.jpg)
 
+Shirt 2
 ![shirt2 Processed](images/shirt2Processed.jpg)
 
+Shoes
 ![shoes Processed](images/shoesProcessed.jpg)
+
+Results
+![results](images/check3Results.PNG)

@@ -24,14 +24,6 @@ train_labels
 test_images.shape
 len(test_labels)
 
-# plt.figure()
-# plt.imshow(train_images[0])
-# plt.colorbar()
-# plt.grid(False)
-# plt.show()
-
-# train_images = train_images / 255.0
-# test_images = test_images / 255.0
 
 size = 28, 28
 
@@ -51,6 +43,10 @@ shirt2Processed = ImageOps.invert(shirt2Processed)
 
 shoesProcessed = ImageOps.grayscale(im3)
 shoesProcessed = ImageOps.invert(shoesProcessed)
+
+shirt1Processed.save("images/shirt1Processed.jpg")
+shirt2Processed.save("images/shirt2Processed.jpg")
+shoesProcessed.save("images/shoesProcessed.jpg")
 
 images = []
 images.append(shirt1Processed)
@@ -109,13 +105,13 @@ def plot_value_array(i, predictions_array, true_label):
   thisplot[predicted_label].set_color('red')
   thisplot[true_label].set_color('blue')
 
-for i in range(0, len(images)):
-    plt.figure(figsize=(6,3))
-    plt.subplot(1,2,1)
-    plot_image(i, predictions, test_labels, images)
-    plt.subplot(1,2,2)
-    plot_value_array(i, predictions, test_labels)
-    plt.show()
+# for i in range(0, len(images)):
+#     plt.figure(figsize=(6,3))
+#     plt.subplot(1,2,1)
+#     plot_image(i, predictions, test_labels, images)
+#     plt.subplot(1,2,2)
+#     plot_value_array(i, predictions, test_labels)
+#     plt.show()
 
 
 # Plot the first X test images, their predicted label, and the true label
@@ -124,21 +120,18 @@ num_rows = 1
 num_cols = 3
 num_images = num_rows*num_cols
 plt.figure(figsize=(2*2*num_cols, 2*num_rows))
-for i in range(num_images):
+for i in range(0, num_images):
   plt.subplot(num_rows, 2*num_cols, 2*i+1)
-  plot_image(9000+i, predictions, test_labels, test_images)
+  plot_image(i, predictions, test_labels, images)
   plt.subplot(num_rows, 2*num_cols, 2*i+2)
-  plot_value_array(9000+i, predictions, test_labels)
+  plot_value_array(i, predictions, test_labels)
 plt.show()
 
 # # Grab an image from the test dataset
 img = images[0]
-print(img.shape)
 
 # Add the image to a batch where it's the only member.
 img = (np.expand_dims(img,0))
-print(img.shape)
-
 
 predictions_single = model.predict(img)
 print(predictions_single)
