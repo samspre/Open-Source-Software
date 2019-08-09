@@ -123,6 +123,8 @@ print(img.shape)
 img = (np.expand_dims(img,0))
 print(img.shape)
 
+print(type(img))
+
 
 predictions_single = model.predict(img)
 print(predictions_single)
