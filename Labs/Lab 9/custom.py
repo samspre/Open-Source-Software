@@ -85,18 +85,6 @@ def plot_value_array(i, predictions_array, true_label):
   thisplot[predicted_label].set_color('red')
   thisplot[true_label].set_color('blue')
 
-# Plot the first X test images, their predicted label, and the true label
-# Color correct predictions in blue, incorrect predictions in red
-# num_rows = 1
-# num_cols = 3
-# num_images = num_rows*num_cols
-# plt.figure(figsize=(2*2*num_cols, 2*num_rows))
-# for i in range(0, num_images):
-#   plt.subplot(num_rows, 2*num_cols, 2*i+1)
-#   plot_image(i, predictions, test_labels, images)
-#   plt.subplot(num_rows, 2*num_cols, 2*i+2)
-#   plot_value_array(i, predictions, test_labels)
-# plt.show()
 
 im1 = np.array(im1)
 im2 = np.array(im2)
@@ -106,9 +94,21 @@ im1 = (np.expand_dims(im1, 0))
 im2 = (np.expand_dims(im2, 0))
 im3 = (np.expand_dims(im3, 0))
 
+images = np.empty((1,3))
+
+images = np.append(images, im1)
+images = np.append(images, im2)
+images = np.append(images, im3)
+
 pred1 = model.predict(im1)
 pred2 = model.predict(im2)
 pred3 = model.predict(im3)
+
+predictions = []
+predictions.append(pred1)
+predictions.append(pred2)
+predictions.append(pred3)
+
 
 print("\nPredictions")
 
@@ -126,3 +126,16 @@ print(np.argmax(pred3), class_names[np.argmax(pred3)], end = '\n')
 print(pred3, end = '\n')
 plot_value_array(0, pred3, test_labels)
 plt.xticks(range(10), class_names, rotation=45)
+
+# Plot the first X test images, their predicted label, and the true label
+# Color correct predictions in blue, incorrect predictions in red
+# num_rows = 1
+# num_cols = 3
+# num_images = num_rows*num_cols
+# plt.figure(figsize=(2*2*num_cols, 2*num_rows))
+# for i in range(0, len(images)):
+#   plt.subplot(num_rows, 2*num_cols, 2*i+1)
+#   plot_image(i, predictions, test_labels, images[i])
+#   plt.subplot(num_rows, 2*num_cols, 2*i+2)
+#   plot_value_array(i, predictions, test_labels)
+# plt.show()

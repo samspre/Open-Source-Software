@@ -39,5 +39,10 @@ Shirt 2
 Shoes
 ![shoes Processed](images/shoesProcessed.jpg)
 
-Results
+##### Results
+
+Note: There were a ton of bugs I couldn't really figure out trying to do this, such as the fact that it no longer prints the images below (I can't figure out the bugs) and that it is not totally accurate in its predictions.  I picked the closest ones out of my tests
+
 ![results](images/check3Results.PNG)
+
+![Predictions](images/preds.PNG)
