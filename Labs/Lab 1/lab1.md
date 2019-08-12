@@ -21,25 +21,25 @@ or $12,000 and a settlement" (52).  Jordan made the latter choice, and I realize
 
 Partial Tree Directory
 
-![Tree directory 1](/Labs/Lab 1/lab1_tree1.PNG)
+![Tree directory 1](lab1_tree1.PNG)
 
 Regex Practice
 
-![Regex Practice 1](/Labs/Lab 1/regex1.PNG)
-![Regex Practice 2](/Labs/Lab 1/regex2.PNG)
-![Regex Practice 3](/Labs/Lab 1/regex3.PNG)
-![Regex Practice 4](/Labs/Lab 1/regex4.PNG)
-![Regex Practice 5](/Labs/Lab 1/regex5.PNG)
-![Regex Practice 6](/Labs/Lab 1/regex6.PNG)
-![Regex Practice 7](/Labs/Lab 1/regex7.PNG)
+![Regex Practice 1](regex1.PNG)
+![Regex Practice 2](regex2.PNG)
+![Regex Practice 3](regex3.PNG)
+![Regex Practice 4](regex4.PNG)
+![Regex Practice 5](regex5.PNG)
+![Regex Practice 6](regex6.PNG)
+![Regex Practice 7](regex7.PNG)
 
 Regex Puzzles
 
-![Regex Puzzle 2](/Labs/Lab 1/regex puzzle1a.PNG)
-![Regex Puzzle 2](/Labs/Lab 1/regex puzzle2.PNG)
-![Regex Puzzle 3](/Labs/Lab 1/regex puzzle3.PNG)
-![Regex Puzzle 4](/Labs/Lab 1/regex puzzle4.PNG)
-![Regex Puzzle 5](/Labs/Lab 1/regex puzzle5.PNG)
+![Regex Puzzle 2](regex puzzle1a.PNG)
+![Regex Puzzle 2](regex puzzle2.PNG)
+![Regex Puzzle 3](regex puzzle3.PNG)
+![Regex Puzzle 4](regex puzzle4.PNG)
+![Regex Puzzle 5](regex puzzle5.PNG)
 
 Blockly
 
@@ -62,7 +62,7 @@ while (notDone()) {
 }
 ```
 
-![Blockly](/Labs/Lab 1/blockly.PNG)
+![Blockly](blockly.PNG)
 
 ## Reflection
 

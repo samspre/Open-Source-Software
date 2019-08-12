@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/static_block.dir/program.c.o  -o static_block -rdynamic libstaticLib.a 
